@@ -20,7 +20,7 @@ Para executar o Jupyter Notebook, você precisará das seguintes bibliotecas Pyt
 Você pode instalá-las rodando o seguinte comando no seu terminal:
 ```bash
 pip install networkx matplotlib numpy
-
+````
 ## Como Executar
 
 1. Clone este repositório para a sua máquina local.
