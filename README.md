@@ -25,7 +25,7 @@ Você pode instalá-las rodando o seguinte comando no seu terminal:
 
 1. Clone este repositório para a sua máquina local.
 2. Baixe o arquivo `flickrEdges.txt.gz` no link do SNAP fornecido acima e coloque-o na mesma pasta do arquivo principal.
-3. Abra o arquivo `notebook.ipynb` em um ambiente Jupyter.
+3. Abra o arquivo `notebooks_Graph.ipynb` em um ambiente Jupyter.
 4. Execute as células sequencialmente para extrair a maior componente conexa, calcular as métricas estruturais e gerar as visualizações.
 
 ## Resultados Principais
