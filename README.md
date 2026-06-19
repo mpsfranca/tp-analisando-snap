@@ -20,3 +20,14 @@ Para executar o Jupyter Notebook, você precisará das seguintes bibliotecas Pyt
 Você pode instalá-las rodando o seguinte comando no seu terminal:
 ```bash
 pip install networkx matplotlib numpy
+
+## Como Executar
+
+1. Clone este repositório para a sua máquina local.
+2. Baixe o arquivo `flickrEdges.txt.gz` no link do SNAP fornecido acima e coloque-o na mesma pasta do arquivo principal.
+3. Abra o arquivo `notebook.ipynb` em um ambiente Jupyter.
+4. Execute as células sequencialmente para extrair a maior componente conexa, calcular as métricas estruturais e gerar as visualizações de amostragem em bola de neve (*Snowball Sampling*).
+
+## Resultados Principais
+
+O trabalho comprova a viabilidade e os limites computacionais da aplicação empírica de algoritmos clássicos em grafos de grande escala. A análise demonstra que a rede `web-flickr` possui características de Mundo Pequeno (*Small-World*) e segue uma topologia Livre de Escala (*Scale-Free*), apresentando alta resiliência a falhas graças à sua massiva clusterização local.
